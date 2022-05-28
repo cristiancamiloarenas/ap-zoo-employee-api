@@ -2,12 +2,11 @@ var express = require('express');
 var router = express.Router();
 const bodyParser = require('body-parser');
 router.use(bodyParser.json());
-const fs = require('fs');
 const {Client} = require('pg');
 
 const connectionData = {
     user: 'postgres',
-    host: 'database-1.c19z1eoho6zx.us-east-1.rds.amazonaws.com',
+    host: 'postgres-database.c841feom24hb.us-east-1.rds.amazonaws.com',
     database: 'postgres',
     password: 'postgres',
     port: 5432,

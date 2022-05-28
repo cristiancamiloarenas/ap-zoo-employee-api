@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="WS-213.6777.57">
-    <data-source name="postgres@postgres-instance.c841feom24hb.us-east-1.rds.amazonaws.com" uuid="fbb9baa4-1c48-4a62-a5b7-36cc47169b1f">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+    <data-source name="postgres@postgres-database.c841feom24hb.us-east-1.rds.amazonaws.com" uuid="80f40c53-7bc0-4ef5-8d5f-ae880c4483e7">
+      <database-info product="PostgreSQL" version="13.4" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.3.3" dbms="POSTGRES" exact-version="13.4" exact-driver-version="42.3">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>postgres</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" negative="1">
-            <node kind="schema" negative="1" />
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
           </node>
         </introspection-scope>
       </schema-mapping>
